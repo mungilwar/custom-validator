@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+   
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <div>
+                <label for="username">User Name</label>
+                <i class="fas fa-user"></i>
+                <input type="text" name="username" id="username" placeholder="enter username"/>
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <input type="email" name="email" id="email" placeholder="enter email"/>
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <i class="fa fa-key" aria-hidden="true"></i>
+                <input type="password" name="password" id="password" placeholder="enter password"/>
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="mobile">Mobile</label>
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <input type="tel" name="mobile" id="mobile" placeholder="enter mobile"/>
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            
+            
+            <button id="btn" type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
